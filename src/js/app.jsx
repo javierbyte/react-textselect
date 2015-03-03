@@ -18,8 +18,7 @@ var App = React.createClass({
 
     render() {
         return (
-            <div className='demo'>
-
+            <div>
                 This is a <TextSelect
                     options={['text select', 'react component', 'dropdown']}
                     active={this.state.selectedOption}
@@ -30,4 +29,4 @@ var App = React.createClass({
 
 });
 
-React.render(<App/>, document.body);
+React.render(<App/>, document.getElementById('demo'));

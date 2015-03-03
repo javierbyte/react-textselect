@@ -18282,8 +18282,7 @@ var App = React.createClass({displayName: "App",
 
     render:function() {
         return (
-            React.createElement("div", {className: "demo"}, 
-
+            React.createElement("div", null, 
                 "This is a ", React.createElement(TextSelect, {
                     options: ['text select', 'react component', 'dropdown'], 
                     active: this.state.selectedOption, 
@@ -18294,7 +18293,7 @@ var App = React.createClass({displayName: "App",
 
 });
 
-React.render(React.createElement(App, null), document.body);
+React.render(React.createElement(App, null), document.getElementById('demo'));
 
 },{"react":147,"react-textselect":1}],149:[function(require,module,exports){
 // shim for using process in browser
