@@ -2,6 +2,8 @@
 
 Simple component to put a invisible `Select` dropdown over a text.
 
+[Live demo](javierbyte.github.io/react-textselect)
+
 ![react-textselect screenshot](docs/screenshot.png)
 
 ## Installation
