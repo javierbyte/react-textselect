@@ -10,10 +10,10 @@ Simple component to put a invisible `Select` dropdown over a text.
 
 ## Usage.
 
-    var Textselect = require('react-textselect');
+    var TextSelect = require('react-textselect');
 
     <TextSelect
-        options={['total', 'unique', 'lorem ipsum dolor sit amet']}
+        options={['text select', 'react component', 'dropdown']}
         active={this.state.selectedOption}
         onChange={this.onTextSelectChange}/>
 
