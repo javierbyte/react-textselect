@@ -1,6 +1,6 @@
 {
   "name": "react-textselect",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Select dropdown over text in React.",
   "main": "textselect.jsx",
   "scripts": {
@@ -8,10 +8,14 @@
   },
   "keywords": [
     "react",
+    "react-component",
     "component",
     "text",
     "select"
   ],
+  "peerDependencies": {
+    "react": "^0.12.x"
+  },
   "author": "javierbyte",
   "license": "ISC",
   "browserify": {
