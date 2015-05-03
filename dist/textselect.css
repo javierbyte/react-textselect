@@ -1,22 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  position: relative;
-}
-body {
-  font-family: 'Proxima Nova', 'Lato', sans-serif;
-  color: #333;
-  background: #f0f1f3;
-}
-#demo {
-  text-align: center;
-  position: absolute;
-  padding-top: 10em;
-  width: 100%;
-}
-.forkme {
-  display: block;
-}
 .react-textselect {
   border-bottom: 1px solid rgba(0, 0, 0, 0.33);
   overflow: hidden;
@@ -41,7 +22,5 @@ body {
   left: 0;
   right: 0;
   width: 100%;
-  z-index: 1;
   opacity: 0;
 }
-

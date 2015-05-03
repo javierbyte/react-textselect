@@ -18,6 +18,6 @@
   },
   "dependencies": {
     "react": "^0.12.2",
-    "react-textselect": "0.0.x"
+    "react-textselect": "^0.1.0"
   }
 }
