@@ -1,0 +1,28 @@
+.react-textselect {
+    border-bottom: 1px solid rgba(0, 0, 0, .33);
+    overflow: hidden;
+    padding-right: 1em;
+    margin-right: .17em;
+    cursor: pointer;
+
+    &::after {
+        position: absolute;
+        top: .45em;
+        right: 0;
+        display: block;
+        content: '';
+        height: 0;
+        width: 0;
+        border: .33em solid transparent;
+        border-top: .33em solid rgba(0, 0, 0, .33);
+    }
+
+    &-input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        opacity: 0;
+    }
+}

@@ -25,3 +25,13 @@ Simple component to put an invisible `Select` dropdown over a text.
 Dont forget to add styles.
 
     <link rel="stylesheet" href="/node_modules/react-textselect/textselect.css">
+
+# Build
+
+If you want to build this from source, you will need babel and less.
+
+	npm install -g babel less
+
+And run the pre publish script
+
+	npm run prepublish

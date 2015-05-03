@@ -13,12 +13,18 @@ var TextSelect = React.createClass({
     },
 
     render() {
+        var {options, active, onChange, className, ...other} = this.props;
+
+        var classes = 'react-textselect';
+
+        if(className) classes += ' ' + className;
+
         return (
-            <span className='react-textselect'>
-                {this.props.options[this.props.active]}
+            <span className={classes}>
+                {options[active]}
 
                 <select className='react-textselect-input' onChange={this.handleChange}>
-                    {this.props.options.map(function(value, index) {
+                    {options.map(function(value, index) {
                         return (
                             <option key={index}>{value}</option>
                         )
