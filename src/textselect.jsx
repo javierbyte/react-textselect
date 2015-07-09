@@ -23,7 +23,7 @@ var TextSelect = React.createClass({
       <span className={classes}>
       {options[active]}
 
-      <select className='react-textselect-input' onChange={this.handleChange}>
+      <select className='react-textselect-input' onChange={this.handleChange} value={active}>
         {options.map(function mapOptions(value, index) {
           return (
             <option key={index}>{value}</option>

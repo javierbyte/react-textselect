@@ -1,6 +1,6 @@
 {
   "name": "react-textselect",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Select dropdown over text in React.",
   "main": "dist/textselect.js",
   "scripts": {
