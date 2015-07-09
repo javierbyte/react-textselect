@@ -10,7 +10,7 @@ var TextSelect = React.createClass({
   },
 
   handleChange(event) {
-    this.props.onChange(event, event.taget.value, this.props.options[event.target.value]);
+    this.props.onChange(event, event.target.value, this.props.options[event.target.value]);
   },
 
   render() {
