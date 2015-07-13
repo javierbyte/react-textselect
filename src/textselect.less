@@ -3,12 +3,13 @@
     overflow: hidden;
     padding-right: 1em;
     margin-right: .17em;
+    margin-top: -.17em;
     cursor: pointer;
     position: relative;
 
     &::after {
         position: absolute;
-        top: .45em;
+        top: 50%;
         right: 0;
         display: block;
         content: '';
@@ -27,5 +28,11 @@
         width: 100%;
         opacity: 0;
         z-index: 1;
+    }
+
+    &.bright {
+      &::after {
+          border-top: .33em solid rgba(255, 255, 255, .33);
+      }
     }
 }
