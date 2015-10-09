@@ -1,3 +1,6 @@
+#0.2.0
+Add object options support via `lodash.map`.
+
 #0.1.12
 Add white version.
 
