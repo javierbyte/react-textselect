@@ -14,6 +14,9 @@ var TextSelect = React.createClass({
       selectedOption: this.props.active
     }
   },
+  componentWillReceiveProps(nextProps) {
+    (this.props.active !== nextProps.active) && this.setState({ selectedOption: nextProps.active });
+  }
 
   handleChange (event) {
     this.setState({
