@@ -1,12 +1,13 @@
 var React = require('react')
+var PropTypes = require('prop-types')
 var lodashMap = require('lodash.map')
 
 var TextSelect = React.createClass({
   propTypes: {
-    options: React.PropTypes.any.isRequired,
-    active: React.PropTypes.any.isRequired,
-    onChange: React.PropTypes.func.isRequired,
-    className: React.PropTypes.string
+    options: PropTypes.any.isRequired,
+    active: PropTypes.any.isRequired,
+    onChange: PropTypes.func.isRequired,
+    className: PropTypes.string
   },
 
   handleChange (event) {
