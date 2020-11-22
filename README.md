@@ -1,5 +1,11 @@
 # React Text Select
 
+## UNMAINTAINED
+
+Unmantained for now.
+
+--
+
 Simple component to put an invisible `Select` dropdown over a text.
 
 [Live demo](http://javierbyte.github.io/react-textselect/)
